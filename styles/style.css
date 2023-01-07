@@ -9,8 +9,6 @@ main {
 /* header */
 header {
   background-image: url(../images/banner3.png);
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   margin: 0 auto;
   max-width: 1600px;
   height: 808px;
@@ -34,7 +32,7 @@ header p {
   font-weight: 400;
   margin: 25px 0;
 }
-.white-bg {
+.btn-white-bg {
   background-color: #ffffff;
   color: #005fac;
   font-size: 20px;
@@ -71,6 +69,38 @@ header p {
 }
 
 /* my plans */
-.plans {
+.plans > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 130px auto 50px 500px;
+}
+.plan-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 130px;
+}
+
+/* mindset */
+.mindset {
+  max-width: 1140px;
+  height: 300px;
+  background-image: url(../images/gradient.png), url(../images/watch.png);
+  margin-bottom: 130px;
+  display: flex;
+  align-items: center;
+}
+.mindset-text {
+  max-width: 460px;
+  margin-left: 60px;
+}
+.mindset-text > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* footer  */
+
+footer {
   display: flex;
 }
