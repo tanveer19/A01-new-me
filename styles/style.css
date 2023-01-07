@@ -81,7 +81,9 @@ header p {
   justify-content: space-around;
   margin-bottom: 130px;
 }
-
+.plan-details h3 {
+  margin: 15px 0 15px 0;
+}
 /* mindset */
 
 .mindset {
@@ -150,4 +152,34 @@ footer {
   margin-top: 20px;
   border-radius: 5px;
   border-color: #005fac;
+}
+
+/* extra part */
+
+.extra > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 100px auto;
+  width: 200px;
+}
+.blogs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.blogs > article {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px 5px;
+}
+.blogs p {
+  padding: 10px;
+}
+.blog1,
+.blog3 {
+  background-image: url(../images/gradient.png);
+}
+
+.blog2 {
+  background-image: url(../images/gradient2.png);
 }
