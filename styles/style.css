@@ -2,7 +2,10 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* header */
 header {
   background-image: url(../images/banner3.png);
@@ -39,4 +42,35 @@ header p {
   padding: 20px 25px;
   border-radius: 5px;
   border-color: #ffffff;
+}
+
+/* failure section */
+
+.failures {
+  margin-top: 325px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.failures > img {
+  border-radius: 50px;
+}
+.failures-text {
+  max-width: 415px;
+}
+.failures-text > h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.failures-text > p {
+  font-size: 16px;
+  margin: 25px 0;
+}
+.failures-text > ul {
+  list-style-image: url(../images/tick.png);
+}
+
+/* my plans */
+.plans {
+  display: flex;
 }
