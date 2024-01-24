@@ -4,14 +4,16 @@
   font-family: "Work Sans", sans-serif;
 }
 main {
-  max-width: 1140px;
+  max-width: 100%;
   margin: 0 auto;
 }
 /* header */
 header {
   background-image: url(../images/banner3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 100%;
   height: 808px;
   display: flex;
   justify-content: center;
@@ -48,6 +50,7 @@ header p {
 .failures {
   margin-top: 325px;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 100px;
 }
@@ -74,7 +77,13 @@ header p {
 .plans > h1 {
   font-size: 40px;
   font-weight: 700;
-  margin: 130px auto 50px 500px;
+  width: 300px;
+  margin: 130px auto 50px auto;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .plan-details {
   display: flex;
@@ -90,7 +99,7 @@ header p {
   max-width: 1140px;
   height: 300px;
   background-image: url(../images/gradient.png), url(../images/watch.png);
-  margin-bottom: 130px;
+  margin: 0 auto 130px;
   display: flex;
   align-items: center;
 }
@@ -112,7 +121,7 @@ footer {
   justify-content: space-evenly;
   background-color: #151414;
   color: #ffffff;
-  max-width: 1600px;
+  max-width: 100%;
   height: 575px;
   margin: 0 auto;
 }
