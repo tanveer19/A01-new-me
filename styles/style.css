@@ -58,7 +58,6 @@ header p {
 }
 .failures-text {
   max-width: 415px;
-  margin: 20px auto;
 }
 .failures-text > h3 {
   font-size: 40px;
@@ -217,8 +216,9 @@ img {
     font-size: 15px;
   }
   header p {
-    /* display: none; */
     font-size: 12px;
+    max-width: 40%;
+    margin-left: 55%;
   }
   .btn-white-bg {
     font-size: 16px;
