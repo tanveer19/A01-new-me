@@ -58,6 +58,7 @@ header p {
 }
 .failures-text {
   max-width: 415px;
+  margin: 20px auto;
 }
 .failures-text > h3 {
   font-size: 40px;
@@ -177,8 +178,8 @@ footer {
   justify-content: space-evenly;
 }
 .blogs > article {
-  width: 400px;
-  margin: 50px auto;
+  max-width: 400px;
+  margin: 40px auto;
   padding: 30px;
   border-radius: 20px 5px;
 }
@@ -224,10 +225,43 @@ img {
     padding: 10px 15px;
   }
   .failures {
-    /* margin-top: 25px; */
+    margin: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0;
+  }
+  .failures-text {
+    max-width: 415px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .plans > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .mindset {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+  }
+  footer {
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .extra > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px auto;
+    width: 200px;
+  }
+  .blogs {
+    flex-direction: column;
   }
 }
